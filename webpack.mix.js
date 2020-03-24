@@ -40,4 +40,4 @@ const runStylelint = () => {
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .js('resources/js/react/correntLocation.js', 'public/js');
+    .react('resources/js/react/correntLocation.js', 'public/js');
